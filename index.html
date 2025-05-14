@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clack - IA acessível, prática e transformadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="overlay" id="menuOverlay"></div>
+    
+    <!-- Logos flutuantes decorativos -->
+    <img src="https://static.wixstatic.com/media/d4e936_dac00657afa04bc983227ccbb1b4e24d~mv2.png" alt="Clack Logo" class="floating-logo" style="top: 25%; left: 10%;">
+    <img src="https://static.wixstatic.com/media/d4e936_dac00657afa04bc983227ccbb1b4e24d~mv2.png" alt="Clack Logo" class="floating-logo" style="top: 60%; right: 5%; animation-delay: 2s;">
+    <img src="https://static.wixstatic.com/media/d4e936_dac00657afa04bc983227ccbb1b4e24d~mv2.png" alt="Clack Logo" class="floating-logo" style="bottom: 20%; left: 15%; animation-delay: 4s;">
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Clack</h1>
+                <img src="https://static.wixstatic.com/media/d4e936_dac00657afa04bc983227ccbb1b4e24d~mv2.png" alt="Clack Logo" class="logo-img">
+            </div>
+            <button class="menu-mobile-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#problemas">Problemas & Soluções</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato" class="btn-contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero">
+            <h2>IA acessível, prática e transformadora para o seu negócio.</h2>
+            <p>Transforme a gestão e a experiência do cliente com o poder da inteligência artificial <span class="purple-dot"></span> Inovação que funciona</p>
+            <a href="#contato" class="btn-primario">Agende uma Demo</a>
+        </div>
+    </header>
+
+    <section id="solucoes" class="glass-card">
+        <div class="container">
+            <img src="https://static.wixstatic.com/media/d4e936_dac00657afa04bc983227ccbb1b4e24d~mv2.png" alt="Clack Logo" class="logo-decoration">
+            <h2>Nossas Soluções <span class="purple-dot small"></span></h2>
+            <div class="solucoes-grid">
+                <div class="solucao-item">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>IA Generativa <span class="purple-dot small"></span></h3>
+                    <p>Criamos conteúdo personalizado, respostas inteligentes e soluções que aprendem com seus dados.</p>
+                </div>
+                <div class="solucao-item">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>RPA <span class="purple-dot small"></span></h3>
+                    <p>Automatize processos repetitivos e libere sua equipe para trabalhos de maior valor estratégico.</p>
+                </div>
+                <div class="solucao-item">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>IA Personalizada <span class="purple-dot small"></span></h3>
+                    <p>Desenvolvemos soluções sob medida para os desafios específicos do seu negócio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problemas" class="glass-card">
+        <div class="container">
+            <img src="https://static.wixstatic.com/media/d4e936_dac00657afa04bc983227ccbb1b4e24d~mv2.png" alt="Clack Logo" class="logo-decoration">
+            <h2>Problemas & Soluções <span class="purple-dot small"></span></h2>
+            <div class="problema-solucao">
+                <div class="problema">
+                    <div class="icon-wrapper red">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Processos manuais e ineficientes</h3>
+                    <p>Perda de tempo e recursos com tarefas operacionais que poderiam ser automatizadas.</p>
+                </div>
+                <div class="divider">
+                    <span class="purple-dot"></span>
+                </div>
+                <div class="solucao">
+                    <div class="icon-wrapper green">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Automação Inteligente</h3>
+                    <p>Nossas soluções de RPA identificam e automatizam processos repetitivos, aumentando a eficiência em até 85%.</p>
+                </div>
+            </div>
+
+            <div class="problema-solucao">
+                <div class="problema">
+                    <div class="icon-wrapper red">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Falta de personalização no atendimento</h3>
+                    <p>Experiências genéricas que não atendem às necessidades específicas de cada cliente.</p>
+                </div>
+                <div class="divider">
+                    <span class="purple-dot"></span>
+                </div>
+                <div class="solucao">
+                    <div class="icon-wrapper green">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Atendimento Personalizado com IA</h3>
+                    <p>Sistemas inteligentes que aprendem com cada interação e oferecem respostas personalizadas em tempo real.</p>
+                </div>
+            </div>
+
+            <div class="problema-solucao">
+                <div class="problema">
+                    <div class="icon-wrapper red">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Dificuldade em escalar operações</h3>
+                    <p>Crescimento limitado pela capacidade humana de processamento de informações e tomada de decisões.</p>
+                </div>
+                <div class="divider">
+                    <span class="purple-dot"></span>
+                </div>
+                <div class="solucao">
+                    <div class="icon-wrapper green">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Escalabilidade Exponencial</h3>
+                    <p>Soluções de IA que escalam seu negócio sem a necessidade proporcional de aumento de equipe.</p>
+                </div>
+            </div>
+
+            <div class="problema-solucao">
+                <div class="problema">
+                    <div class="icon-wrapper red">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Falta de visão estratégica dos dados</h3>
+                    <p>Dados sem análise adequada, impossibilitando insights valiosos para o negócio.</p>
+                </div>
+                <div class="divider">
+                    <span class="purple-dot"></span>
+                </div>
+                <div class="solucao">
+                    <div class="icon-wrapper green">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Inteligência Analítica</h3>
+                    <p>Transformamos grandes volumes de dados em insights acionáveis para decisões estratégicas mais assertivas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="glass-card">
+        <div class="container">
+            <img src="https://static.wixstatic.com/media/d4e936_dac00657afa04bc983227ccbb1b4e24d~mv2.png" alt="Clack Logo" class="logo-decoration">
+            <h2>O que nossos clientes dizem <span class="purple-dot small"></span></h2>
+            <div class="depoimentos-grid">
+                <div class="depoimento-item">
+                    <div class="depoimento-conteudo">
+                        <p>"A Clack transformou completamente nosso atendimento ao cliente. Conseguimos personalizar cada interação e aumentamos nossa satisfação em 43%."</p>
+                    </div>
+                    <div class="depoimento-autor">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Ana Silva">
+                        <div>
+                            <h4>Ana Silva <span class="purple-dot small"></span></h4>
+                            <p>Diretora de CX, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-item">
+                    <div class="depoimento-conteudo">
+                        <p>"As soluções de RPA da Clack reduziram nosso tempo de processamento em 75% e praticamente eliminaram erros humanos nos processos críticos."</p>
+                    </div>
+                    <div class="depoimento-autor">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Carlos Mendes">
+                        <div>
+                            <h4>Carlos Mendes <span class="purple-dot small"></span></h4>
+                            <p>COO, Fintech Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-item">
+                    <div class="depoimento-conteudo">
+                        <p>"Conseguimos escalar nossa operação em 300% sem aumentar significativamente nossa equipe. A IA personalizada da Clack foi fundamental."</p>
+                    </div>
+                    <div class="depoimento-autor">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Juliana Costa">
+                        <div>
+                            <h4>Juliana Costa <span class="purple-dot small"></span></h4>
+                            <p>CEO, GrowthStart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="glass-card">
+        <div class="container">
+            <div class="cta-logo-container">
+                <img src="https://static.wixstatic.com/media/d4e936_dac00657afa04bc983227ccbb1b4e24d~mv2.png" alt="Clack Logo" class="logo-decoration">
+            
+            </div>
+            <h2>Descubra como a IA pode transformar sua operação</h2>
+            <p>Agende uma conversa com nossos especialistas e veja como podemos ajudar seu negócio a crescer com inteligência artificial.</p>
+            <a href="#contato" class="btn-primario pulse">Agendar Demo Gratuita</a>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <div class="logo-footer">
+                        <h2>Clack</h2>
+                        <img src="https://static.wixstatic.com/media/d4e936_dac00657afa04bc983227ccbb1b4e24d~mv2.png" alt="Clack Logo" class="logo-img-footer">
+                    </div>
+                    <p>IA acessível, prática e transformadora para o seu negócio.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos <span class="purple-dot small"></span></h3>
+                    <ul>
+                        <li><a href="#solucoes">Soluções</a></li>
+                        <li><a href="#problemas">Problemas & Soluções</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#cta">Agendar Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contato">
+                    <h3>Contato <span class="purple-dot small"></span></h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contato@clack.ai</li>
+                        <li><i class="fas fa-phone"></i> (11) 4321-7890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000, São Paulo - SP</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociais <span class="purple-dot small"></span></h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Clack. Todos os direitos reservados. <span class="purple-dot small"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
