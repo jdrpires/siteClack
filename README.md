@@ -1,61 +1,56 @@
-# Clack - Landing Page
+# Clack — Institutional Landing Page
 
-Landing page futurista e impactante para a Clack, uma empresa que oferece soluções de Inteligência Artificial acessível e prática para empresas de todos os tamanhos.
+> Responsive landing page created to communicate Clack's applied-AI proposition for businesses.
 
-## Visão Geral
+**HTML5 · CSS3 · JavaScript · Particles.js**
 
-Esta landing page foi projetada para apresentar a proposta da Clack de forma clara, inovadora e visualmente futurista, mostrando como suas soluções resolvem dores reais das empresas.
+| | |
+|---|---|
+| **Type** | Institutional / product landing page |
+| **Domain** | Applied AI |
+| **Focus** | Product communication and visual identity |
+| **Status** | Public historical project |
 
-## Recursos Implementados
+## Overview
 
-- Design moderno com efeito glassmorphism
-- Animações suaves e efeitos interativos
-- Efeito de partículas no fundo usando particles.js
-- Layout responsivo adaptado para diferentes tamanhos de tela
-- Seção de problemas vs soluções
-- Seção de depoimentos de clientes
-- Chamada para ação (CTA) destacada
+This repository contains a lightweight institutional landing page for Clack, an applied-AI initiative focused on making practical AI capabilities accessible to businesses.
 
-## Tecnologias Utilizadas
+The project represents the public communication layer rather than the underlying AI/application architecture.
 
-- HTML5
-- CSS3 (com animações e transições)
-- JavaScript (Vanilla)
-- Particles.js para efeitos de partículas
-- Font Awesome para ícones
+## Experience
 
-## Estrutura de Arquivos
+- Responsive layout.
+- Problem/solution storytelling.
+- Product-oriented calls to action.
+- Scroll and transition effects.
+- Particle-based background effects.
+- Glassmorphism and gradient visual language.
 
-- `index.html` - Estrutura HTML da landing page
-- `styles.css` - Estilos e animações
-- `script.js` - Funcionalidades JavaScript e configuração das partículas
+## Structure
 
-## Como Executar
+```text
+siteClack/
+├── index.html
+├── styles.css
+└── script.js
+```
 
-Basta abrir o arquivo `index.html` em qualquer navegador moderno para visualizar a landing page.
+## Run locally
 
-## Paleta de Cores
+No build process is required. Clone the repository and open `index.html`, or serve the directory with a local HTTP server.
 
-- Roxo Primário: `#910BE7`
-- Roxo Claro: `#A64AFF`
-- Secundário (Ciano): `#0BE7E7`
-- Fundo Escuro: `#0D0D1A`
-- Fundo Mais Escuro: `#060611`
-- Texto Claro: `#FFFFFF`
+```bash
+git clone https://github.com/jdrpires/siteClack.git
+cd siteClack
+python -m http.server 8000
+```
 
-## Recursos de Design
+## Historical context
 
-- Glassmorphism (efeito de vidro)
-- Gradientes sutis
-- Efeitos de neon
-- Animações ao scroll
-- Transições suaves
-- Tipografia moderna (Poppins)
+Clack is part of my earlier applied-AI product work. The initiative later became part of the broader Code Synergy trajectory.
 
-## Responsividade
+The repository remains public as a historical product/brand artifact rather than as a representation of my current application architecture.
 
-A landing page é totalmente responsiva e adaptada para:
-- Desktops (992px+)
-- Tablets (768px - 991px)
-- Smartphones (576px - 767px)
-- Smartphones menores (menos de 576px) 
+---
+
+**Jean Pires** · [GitHub](https://github.com/jdrpires) · [Portfolio](https://github.com/jdrpires/jdrpires)
